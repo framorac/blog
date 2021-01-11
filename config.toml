@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://framorac.github.io"
 languageCode = "es_CL"
 title = "Francisco Mora"
 theme = "smol"

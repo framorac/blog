@@ -1,0 +1,42 @@
+baseURL = "http://example.org/"
+languageCode = "es_CL"
+title = "Francisco Mora"
+theme = "smol"
+copyright = "Licencia"
+
+# Parameters
+[params]
+    subtitle = "Ingeniero QA - Desarrollador"
+    dateFmt = "02.01.2006 15:04"
+
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 1 
+
+  [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 3
+
+# Footer
+  [[menu.footer]]
+        name = "Github"
+        url = "https://github.com/framorac"
+        weight = 1 
+
+    [[menu.footer]]
+        name = "Mastodon"
+        url = "https://mastodon.la/@framorac"
+        weight = 2 
+
+    [[menu.footer]]
+        name = "Twitter"
+        url = "https://twitter.com/framorac"
+        weight = 3 
+
+

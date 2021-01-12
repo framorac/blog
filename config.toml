@@ -15,7 +15,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Posts"
+name = "Artículos"
 url = "/posts"
 weight = 2
 

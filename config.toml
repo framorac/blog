@@ -3,6 +3,7 @@ languageCode = "es_CL"
 title = "Francisco Mora"
 theme = "smol"
 copyright = "Licencia"
+summaryLength = 30
 
 # Parameters
 [params]

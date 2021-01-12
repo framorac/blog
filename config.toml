@@ -30,7 +30,7 @@ weight = 3
 
 [[params.social]]
   name = "email"
-  link = "fmora@gmail.com" # no need for "mailto:" at the start
+  link = "fmorac@alumnos.duoc.cl" # no need for "mailto:" at the start
 
 [[params.social]]
   name = "twitter"

@@ -55,7 +55,7 @@
     {{ if (isset .Site.Params "showallpostsonhomepage") }}
       {{ $showAllPostsOnHomePage = .Site.Params.ShowAllPostsOnHomePage }}
     {{ end }}
-    {{ $dataFormat := .Site.Params.dateFormat | default "2006-01-02" }}
+    {{ $dataFormat := .Site.Params.dateFormat | default "02-01-2006" }}
     {{ $mainPosts := (sort ( where site.RegularPages "Type" "in" site.Params.mainSections ) "Date" "desc") }}
     {{ if $showAllPostsOnHomePage }}
     <ul class="post-list">

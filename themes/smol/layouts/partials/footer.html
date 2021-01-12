@@ -1,8 +1,0 @@
-<footer>
-    <p>
-	{{- range .Site.Menus.footer }}
-	<a href="{{ .URL }}"><b>{{ .Name }}</b></a>.
-	{{- end }}
-	|  <a href="https://creativecommons.org/licenses/by/4.0/deed.es"><b>{{ if .Site.Copyright }}{{ .Site.Copyright }}{{ else }}{{ .Site.Title }}{{ end }}</b></a> &#127279; {{ now.Year }}.
-    </p>
-</footer>

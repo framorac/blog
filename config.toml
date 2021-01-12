@@ -1,73 +1,41 @@
 baseURL = "https://framorac.github.io"
 languageCode = "es_CL"
 title = "Francisco Mora"
-theme = "smol"
-copyright = "Licencia"
-summaryLength = 30
-
-# Parameters
+theme = "cactus"
 [params]
-    subtitle = "Ingeniero QA - Desarrollador"
-    dateFmt = "02.01.2006 15:04"
+  colortheme = "dark" # dark, light, white, or classic
+  description = "Bienvenido a mi sitio personal, soy un Ingeniero QA y desarrollador de software, partidario del software libre y autodidacta a casi tiempo completo. Escribo sobre tecnología, GNU/Linux, Python, Java y PHP."
+  postsOnHomePage = 5
+  rss = true
+  tagsOverview = false
 
-# Header
-[menu]
-  [[menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts/"
-        weight = 1 
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-  [[menu.main]]
-        identifier = "tags"
-        name = "Tags"
-        url = "/tags/"
-        weight = 3
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
 
-# Footer
-  [[menu.footer]]
-        name = "Github"
-        url = "https://github.com/framorac"
-        weight = 1 
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
 
-    [[menu.footer]]
-        name = "Mastodon"
-        url = "https://mastodon.la/@framorac"
-        weight = 2 
+[[params.social]]
+  name = "github"
+  link = "https://github.com/framorac"
 
-    [[menu.footer]]
-        name = "Twitter"
-        url = "https://twitter.com/framorac"
-        weight = 3 
+[[params.social]]
+  name = "email"
+  link = "fmora@gmail.com" # no need for "mailto:" at the start
 
-[markup]
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineAnchors = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "monokai"
-    tabWidth = 4
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
-    [markup.goldmark.parser]
-      attribute = true
-      autoHeadingID = true
-      autoHeadingIDType = "github"
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = true
-      xhtml = false
+[[params.social]]
+  name = "twitter"
+  link = "https://www.twitter.com/framorac"
 
+[[params.social]]
+  name = "mastodon"
+  link = "https://mastodon.la/@framorac"

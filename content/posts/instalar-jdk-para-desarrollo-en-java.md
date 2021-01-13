@@ -2,7 +2,7 @@
 title: "Instalar JDK para desarrollo en Java"
 date: 2021-01-11T23:24:54-03:00
 tags: ['java']
-draft: true
+draft: false
 ---
 ## Introducción
 

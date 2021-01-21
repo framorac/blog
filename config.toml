@@ -24,6 +24,11 @@ name = "Tags"
 url = "/tags"
 weight = 3
 
+[[menu.main]]
+name = "RSS"
+url = "https://framorac.github.io/index.xml"
+weight = 4
+
 [[params.social]]
   name = "github"
   link = "https://github.com/framorac"

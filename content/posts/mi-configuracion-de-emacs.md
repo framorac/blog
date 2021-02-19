@@ -52,7 +52,7 @@ sudo port install emacs-app
 En windows basta descargar el ejecutable ```.exe``` desde un [GNU Mirror](http://ftpmirror.gnu.org/emacs/windows "Emacs Windows Download") y seguir el proceso de instalación.
 
 ## Configuración
-Los archivos de configuración de **emacs** deben tener la extensión ```.el```(también pueden ser ```.org```) que es la extensión de archivos escritos en lenguaje de programación (LISP)[https://es.wikipedia.org/wiki/Lisp] y se ubican dentro de la carpeta ```.emacs.d```, la cual, está oculta en tu directorio personal(fijate en el punto inicial). En windows esta carpeta se encuentra en la ruta ```C:\Users\username\AppData\Roaming```(aunque se puede configurar tu **HOME** con variables de entorno). El archivo de configuración principal en **emacs** es ```init.el``` y mantengo separados otros archivos en una carpeta <kbd>config</kbd>. Ejemplo de mi estructura es como la siguiente:
+Los archivos de configuración de **emacs** deben tener la extensión ```.el```(también pueden ser ```.org```) que es la extensión de archivos escritos en lenguaje de programación [LISP](https://es.wikipedia.org/wiki/Lisp) y se ubican dentro de la carpeta ```.emacs.d```, la cual, está oculta en tu directorio personal(fijate en el punto inicial). En windows esta carpeta se encuentra en la ruta ```C:\Users\username\AppData\Roaming```(aunque se puede configurar tu **HOME** con variables de entorno). El archivo de configuración principal en **emacs** es ```init.el``` y mantengo separados otros archivos en una carpeta <kbd>config</kbd>. Ejemplo de mi estructura es como la siguiente:
 
 ```
 .emacs.d (folder)

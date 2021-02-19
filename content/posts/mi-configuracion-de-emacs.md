@@ -64,7 +64,7 @@ Los archivos de configuración de **emacs** deben tener la extensión ```.el```(
 -- custom.el (archivo autogenerado)
 ```
 ### init.el
-Mi archivo **init.el** contiene el setup de repositorios para instalar aplicaciones en **Emacs**, repositorios como (GNU ELPA)[https://elpa.gnu.org/ "GNU Emacs Lisp Package Archive"], (MELPA)[https://melpa.org/ "Milkypostman’s Emacs Lisp Package Archive"] y (Org-Mode)[https://orgmode.org/elpa.html]:
+Mi archivo **init.el** contiene el setup de repositorios para instalar aplicaciones en **Emacs**, repositorios como [GNU ELPA](https://elpa.gnu.org/ "GNU Emacs Lisp Package Archive"), [MELPA](https://melpa.org/ "Milkypostman’s Emacs Lisp Package Archive") y [Org-Mode](https://orgmode.org/elpa.html):
 ```lisp
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)

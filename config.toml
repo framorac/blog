@@ -7,7 +7,7 @@ theme = "cactus"
   description = "Bienvenido a mi sitio personal, soy un Ingeniero QA y desarrollador de software, partidario del software libre y autodidacta a casi tiempo completo. Escribo sobre desarrollo de software, sistemas operativos, software libre y open source."
   postsOnHomePage = 5
   rss = true
-  tagsOverview = false
+  tagsOverview = true
 
 [[menu.main]]
 name = "Home"
@@ -29,8 +29,8 @@ weight = 3
   link = "https://github.com/framorac"
 
 [[params.social]]
-  name = "email"
-  link = "fr.morac@alumnos.duoc.cl" # no need for "mailto:" at the start
+  name = "youtube"
+  link = "https://www.youtube.com/channel/UCgKmCq-59D5r02jUB11IZKA" # no need for "mailto:" at the start
 
 [[params.social]]
   name = "twitter"

@@ -30,7 +30,7 @@ weight = 3
 
 [[params.social]]
   name = "youtube"
-  link = "https://www.youtube.com/channel/UCgKmCq-59D5r02jUB11IZKA" # no need for "mailto:" at the start
+  link = "https://www.youtube.com/channel/UCgKmCq-59D5r02jUB11IZKA"
 
 [[params.social]]
   name = "twitter"

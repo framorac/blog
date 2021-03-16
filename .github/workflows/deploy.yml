@@ -30,4 +30,4 @@ jobs:
           external_repository: framorac/framorac.github.io
           publish_branch: main
           publish_dir: ./public
-          cname: franciscomora.cl
+          cname: www.franciscomora.cl
